@@ -29,8 +29,6 @@ Get JSON output with transcription, timestamp, and chunk information.
 
 🧪 Sample Output
 json
-Copy
-Edit
 [
   {
     "chunk_id": 1,
@@ -43,25 +41,18 @@ Edit
 ]
 📁 Project Structure
 bash
-Copy
-Edit
 📦youtube-chunker
  ┣ 📜main.py                # Main script
  ┣ 📜README.md              # Project documentation
 🧠 Model Details
 Model: Whisper (Base)
-
 Source: OpenAI
-
 Language: Supports multilingual transcription
 
 🎓 Educational Use Case
 This project was developed as a personal initiative to explore speech processing and video understanding through Whisper and Gradio. It’s useful for building tools for:
-
 Lecture transcription
-
 Podcast summarization
-
 Video analytics
 
 👨‍🏫 Supervision
@@ -70,16 +61,10 @@ Bachelor of Science, IIT Madras
 Completed: September 2024
 Faculty Advisor: Prof. Anand S
 
-📜 License
-MIT License – use freely and give credit where due. ❤️
-
 🙌 Acknowledgements
+
 Whisper by OpenAI
-
 yt-dlp
-
 Gradio
-
 Pydub
-
 MoviePy

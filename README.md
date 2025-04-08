@@ -1,13 +1,20 @@
-🎬 YouTube Video Semantic Chunking
+# 🎬 YouTube Video Semantic Chunking
+
 This project extracts audio from YouTube videos, transcribes it using OpenAI's Whisper model, and semantically chunks the transcriptions based on time segments. Ideal for speech analysis, summarization, or translation workflows.
 
-🔍 Features
-📥 YouTube Video Downloader: Automatically downloads video in the best quality.
-🔊 Audio Extraction: Converts video to .mp3 audio using moviepy.
-🧠 Speech-to-Text Transcription: Uses Whisper to transcribe audio with accurate timestamps.
-✂️ Audio Segment Chunks: Splits audio and text into manageable chunks of configurable length (default: 15s).
-🌐 Web UI with Gradio: Simple interface to enter a YouTube URL and get structured output.
-📦 Installation
+## 🔍 Features
+
+- 📥 **YouTube Video Downloader**: Automatically downloads video in the best quality.
+- 🔊 **Audio Extraction**: Converts video to `.mp3` audio using `moviepy`.
+- 🧠 **Speech-to-Text Transcription**: Uses Whisper to transcribe audio with accurate timestamps.
+- ✂️ **Audio Segment Chunks**: Splits audio and text into manageable chunks of configurable length (default: 15s).
+- 🌐 **Web UI with Gradio**: Simple interface to enter a YouTube URL and get structured output.
+
+---
+
+## 📦 Installation
+
+```bash
 pip install yt-dlp pydub moviepy whisper gradio
 Make sure you have ffmpeg installed and accessible in your system's PATH.
 
@@ -22,6 +29,8 @@ Get JSON output with transcription, timestamp, and chunk information.
 
 🧪 Sample Output
 json
+Copy
+Edit
 [
   {
     "chunk_id": 1,
@@ -34,6 +43,8 @@ json
 ]
 📁 Project Structure
 bash
+Copy
+Edit
 📦youtube-chunker
  ┣ 📜main.py                # Main script
  ┣ 📜README.md              # Project documentation
@@ -56,12 +67,19 @@ Video analytics
 👨‍🏫 Supervision
 Personal Project
 Bachelor of Science, IIT Madras
-Completed: October 2024
+Completed: September 2024
 Faculty Advisor: Prof. Anand S
+
+📜 License
+MIT License – use freely and give credit where due. ❤️
 
 🙌 Acknowledgements
 Whisper by OpenAI
+
 yt-dlp
+
 Gradio
+
 Pydub
+
 MoviePy

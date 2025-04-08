@@ -39,6 +39,7 @@ json
   },
   ...
 ]
+
 📁 Project Structure
 bash
 📦youtube-chunker
